@@ -31,7 +31,26 @@
     cursor: pointer;
 }
 
-
 .logo-f>img{
     width: 10rem;
+}
+
+.blur-footer-1{
+    /* top: 0; */
+    /* bottom: 4; */
+    right: 15%;
+    width: 26rem;
+    height: 12rem;
+    filter: blur(230px);
+    background: red;
+}
+
+.blur-footer-2{
+    /* top: 0; */
+    /* bottom: 4; */
+    left: 15%;
+    width: 26rem;
+    height: 12rem;
+    filter: blur(230px);
+    background: rgba(255,115,0);
 }

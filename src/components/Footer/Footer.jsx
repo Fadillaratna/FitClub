@@ -10,6 +10,8 @@ export const Footer = () => {
     return (
         <div className="Footer-container">
             <hr />
+            <div className="blur blur-footer-1"></div>
+            <div className="blur blur-footer-2"></div>
             <div className="footer">
                 <div className="social-links">
                     <BsGithub size={35} className="social-icons" />
@@ -20,6 +22,8 @@ export const Footer = () => {
                     <img src={Logo} alt="" />
                 </div>
             </div>
+            
+
 
         </div>
     )
